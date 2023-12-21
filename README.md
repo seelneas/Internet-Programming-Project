@@ -1,1 +1,2 @@
-# This is the first step of developing car rental webiste. It is made up of pure HTML.
+# Internet Programming Project
+This is the first phase of the design of Car Rental Website. It is made up of pure HTML.
