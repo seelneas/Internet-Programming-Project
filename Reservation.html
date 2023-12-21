@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="Logo.jpg" alt="Mavericks logo" title="Unlock the Journey. Rent with Ease" width="100px">
+             
+          </a>
+          <p>Mavericks Car Rental</p>
+    
+          <nav class="navbar" data-navbar>
+            <ul class="navbar-list">
+    
+              <li>
+                <a href="CarRental.html" class="navbar-link" data-nav-link>Home</a>
+              </li>
+    
+              <li>
+                <a href="#featured-car" class="navbar-link" data-nav-link>Explore cars</a>
+              </li>
+    
+              <li>
+                <a href="AboutUs.html" class="navbar-link" data-nav-link>About us</a>
+              </li>
+    
+    
+            </ul>
+          </nav>
+          <div class="header-actions">
+    
+            <div class="header-contact">
+                <p>Phone Number: <a href="tel:88002345678" class="contact-link">+251 7811 3030</a></p>
+             
+              <br>
+              <span class="contact-time">Working Hours: Monday - Saturday: 8:30 am - 5:00 pm</span>
+            </div>
+    
+    
+            <a href="#" class="btn user-btn" aria-label="Profile">
+              <ion-icon name="person-outline"></ion-icon>
+            </a>
+    
+            <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+              <span class="one"></span>
+              <span class="two"></span>
+              <span class="three"></span>
+            </button>
+    
+          </div>
+          <section>
+            <div class="container">
+              <h2>Reserve a Car</h2>
+              <form action="confirmation.html" method="POST">
+                <div class="form-group">
+                  <label for="name">Full Name:</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number:</label>
+                  <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                  <label for="car">Car Selection:</label>
+                  <select id="car" name="car" required>
+                    <option value="" disabled selected>Select a car</option>
+                    <option value="compact">Mercedes Benz C Class</option>
+                    <option value="suv">BMW 3 Series</option>
+                    <option value="sedan">Toyota Yaris</option>
+                    <option value="convertible">Hyundia Minibus</option>
+                    <option value="tesla">Tesla</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="pickup-date">Pickup Date:</label>
+                  <input type="date" id="pickup-date" name="pickup-date" required>
+                </div>
+                <div class="form-group">
+                  <label for="return-date">Return Date:</label>
+                  <input type="date" id="return-date" name="return-date" required>
+                </div>
+                <div class="form-group">
+                  <label for="comments">Additional Comments:</label>
+                  <textarea id="comments" name="comments"></textarea>
+                </div>
+                <a href="FinalPage.html">
+                SUBMIT RESERVATION
+                </a>
+              </form>
+            </div>
+          </section>
+          </header>
+
+          <!--Footer-->
+          <footer class="footer">
+            <div class="container">
+        
+              
+        
+                
+                <div class="footer-bottom">
+        
+                <ul class="social-list">
+                    <li>
+                        <p class="footer-list-title">Socials</p>
+                    </li>
+        
+                  <li>
+                    <a href="https://www.facebook.com" class="social-link">
+                      <ion-icon name="logo-facebook">Facebook</ion-icon>
+                    </a>
+                  </li>
+        
+                  <li>
+                    <a href="https://www.instagram.com" class="social-link">
+                      <ion-icon name="logo-instagram">Instagram</ion-icon>
+                    </a>
+                  </li>
+        
+                  <li>
+                    <a href="https://www.twiiter.com" class="social-link">
+                      <ion-icon name="logo-twitter">Twitter</ion-icon>
+                    </a>
+                  </li>
+        
+                  <li>
+                    <a href="https://www.linkedin.com" class="social-link">
+                      <ion-icon name="logo-linkedin">Linkedin</ion-icon>
+                    </a>
+                  </li>
+        
+                  <li>
+                    <a href="https://www.skype.com" class="social-link">
+                      <ion-icon name="logo-skype">Skype</ion-icon>
+                    </a>
+                  </li>
+        
+                 
+        
+                </ul>
+        
+                <p class="copyright">
+                  &copy; 2023 Mavericks Car Rental. All Rights Reserved!!
+                </p>
+        
+              </div>
+        
+            </div>
+          </footer>
+</body>
+</html>
